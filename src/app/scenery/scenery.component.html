@@ -1,0 +1,11 @@
+<h2>Burlington Beauty</h2>
+<div *ngFor="let post of sceneryPosts">
+    <span class="posts">
+      <h3>{{post.title}}</h3>
+      <span>Date: {{post.date}}</span>
+      <p>{{post.description}}</p>
+      <div class="image-container">
+        <img src='{{post.image}}'/>
+      </div>
+    </span>
+  </div>

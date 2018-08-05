@@ -1,0 +1,12 @@
+<h2>Burlington Food Scene</h2>
+      <div *ngFor="let post of foodPosts">
+        <span class="posts">
+          <h3>{{post.title}}</h3>
+          <span>Date: {{post.date}}</span>
+          <p>{{post.description}}</p>
+          <div class="image-container">
+            <img src='{{post.image}}'/>
+          </div>
+        </span>
+      </div>
+ 

@@ -1,0 +1,13 @@
+.about-me{
+    color: bisque;
+    display:flex;
+    align-items:  center;
+    flex-direction: column;
+    padding: 5%;
+    font-weight: bolder;
+}
+
+.about-me img {
+    height: auto;
+    width: 200px;
+}
